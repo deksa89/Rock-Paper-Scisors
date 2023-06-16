@@ -1,0 +1,137 @@
+.plain-game {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plain-game__triangle {
+    display: flex;
+}
+
+.plain-game__hands-img {
+    height: 4rem;
+}
+
+.plain-game-buttons {
+    position: relative;
+    top: -220px;
+    margin-top: 150px;
+}
+
+.plain-game__scissor-outer-circle {
+    width: 210px;
+    height: 210px;
+    background-color: rgb(255, 233, 35);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -95px;
+    left: 70px;
+}
+
+.plain-game__paper-outer-circle {
+    width: 210px;
+    height: 210px;
+    background-color: rgb(54 95 236);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -90px;
+    left: -255px;
+}
+
+.plain-game__rock-outer-circle {
+    width: 210px;
+    height: 210px;
+    background-color: rgb(252, 104, 104);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 187px;
+    left: -100px;
+}
+
+.plain-game__scissor-inner-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 165px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: inset 1px 9px 0px 0px rgb(182 181 181 / 28%);;
+}
+
+.plain-game__paper-inner-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 165px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: inset 1px 9px 0px 0px rgb(182 181 181 / 28%);;
+}
+
+.plain-game__rock-inner-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 165px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: inset 1px 9px 0px 0px rgb(182 181 181 / 28%);
+}
+
+.plain-game__triangle {
+    position: absolute;
+    height: 350px;
+    width: 450px;
+    left: -190px;
+}
+
+.plain-game__three-hands {
+    position: absolute;
+    cursor: pointer;
+}
+
+.plain-game__hands {
+    height: 90px;
+}
+
+.plain-game__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 70px;
+    width: 700px;
+    border: 5px solid white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.plain-game__game-name {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 39px;
+    font-weight: 900;
+}
+
+.plain-game__results {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.plain-game__game-title {
+    margin: -11px;
+}
