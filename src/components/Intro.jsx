@@ -3,40 +3,38 @@ import { Link } from "react-router-dom";
 import Header from "./Header";
 import triangle from "../images/bg-triangle.svg";
 import papper from "../images/icon-paper.svg";
-import scissor from "../images/icon-scissors.svg";
+import scissors from "../images/icon-scissors.svg";
 import rock from "../images/icon-rock.svg";
 
-import "./plain_game.css";
+import "./intro.css";
 
 const Intro = ({ score, setMyPick }) => {
-
   const handlePick = (e) => {
-    // console.log("e: ", e.target.id)
-    setMyPick(e.target.id)
-  }
+    setMyPick(e.target.id);
+  };
 
   return (
-    <div className="plain-game">
-      <Header score={score} />
-      <div className="plain-game-buttons">
-        <div className="plain-game__triangle">
+    <div className="intro">
+      <Header score={score}/>
+      <div className="intro-buttons">
+        <div className="intro__triangle">
           <img
-            className="plain-game__triangle-img"
+            className="intro__triangle-img"
             src={triangle}
             alt="triangle"
           />
         </div>
-        <div className="plain-game__three-hands">
+        <div className="intro__three-hands">
           <Link to="/game">
-            <div 
-              className="plain-game__paper-outer-circle" 
+            <div
+              className="intro__paper-outer-circle"
               onClick={handlePick}
               id="paper"
             >
-              <div className="plain-game__paper-inner-circle" id="paper">
-                <img 
-                  className="plain-game__hands" 
-                  src={papper} 
+              <div className="intro__paper-inner-circle" id="paper">
+                <img
+                  className="intro__hands"
+                  src={papper}
                   alt="paper"
                   id="paper"
                 />
@@ -45,31 +43,31 @@ const Intro = ({ score, setMyPick }) => {
           </Link>
           <Link to="/game">
             <div
-              className="plain-game__scissor-outer-circle"
+              className="intro__scissors-outer-circle"
               onClick={handlePick}
               id="scissors"
             >
-              <div className="plain-game__scissor-inner-circle" id="scissors">
+              <div className="intro__scissors-inner-circle" id="scissors">
                 <img
-                  className="plain-game__hands"
-                  src={scissor}
-                  alt="scissor"
+                  className="intro__hands"
+                  src={scissors}
+                  alt="scissors"
                   id="scissors"
                 />
               </div>
             </div>
           </Link>
           <Link to="/game">
-            <div 
-              className="plain-game__rock-outer-circle" 
+            <div
+              className="intro__rock-outer-circle"
               onClick={handlePick}
               id="rock"
             >
-              <div className="plain-game__rock-inner-circle" id="rock">
-                <img 
-                  className="plain-game__hands" 
-                  src={rock} 
-                  alt="rock" 
+              <div className="intro__rock-inner-circle" id="rock">
+                <img
+                  className="intro__hands"
+                  src={rock}
+                  alt="rock"
                   id="rock"
                 />
               </div>

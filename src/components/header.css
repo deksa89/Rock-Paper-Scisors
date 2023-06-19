@@ -1,0 +1,40 @@
+.intro__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 70px;
+    width: 700px;
+    border: 5px solid white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.intro__game-name {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 39px;
+    font-weight: 900;
+}
+
+.intro__game-title {
+    margin: -11px;
+}
+
+.intro__results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 10px 60px;
+    border-radius: 8px;
+}
+
+.intro__score-result {
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 5px;
+}

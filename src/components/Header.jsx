@@ -5,14 +5,15 @@ import "./header.css";
 
 const Header = ({ score }) => {
   return (
-    <div className="plain-game__header">
-      <div className="plain-game__game-name">
-        <p className="plain-game__game-title">ROCK</p>
-        <p className="plain-game__game-title">PAPER</p>
-        <p className="plain-game__game-title">SCISSORS</p>
+    <div className="intro__header">
+      <div className="intro__game-name">
+        <p className="intro__game-title">ROCK</p>
+        <p className="intro__game-title">PAPER</p>
+        <p className="intro__game-title">SCISSORS</p>
       </div>
-      <div className="plain-game__results">
-        <h3>Score: {score}</h3>
+      <div className="intro__results">
+        <h2 className="intro__score-title">Score: </h2>
+        <h3 className="intro__score-result">{score}</h3>
       </div>
     </div>
   );
