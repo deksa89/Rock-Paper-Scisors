@@ -1,30 +1,30 @@
-import React, { useState } from 'react';
-import PlainGame from './components/PlainGame';
-import GameHeader from './components/GameHeader';
+import React, { useState } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Intro from "./components/Intro";
+import Game from "./components/Game";
 
-import './App.css';
+import "./App.css";
 
 const App = () => {
+  const [score, setScore] = useState(0);
+  const [myPick, setMyPick] = useState("");
 
-  const [advancedMode, setAdvancedMode] = useState(false)
-
-  const changeMode = (event) => {
-    event.preventDefault();
-    setAdvancedMode(!advancedMode)
-  }
+  // console.log("myPick: ", myPick)
 
   return (
     <div className="app_main">
-      <GameHeader />
-      <PlainGame />
-      <footer className='app_main-footer'>
-        <div onClick={changeMode} className='app_main-footer-choose-mode'>
-          {advancedMode ? "Advanced" : "Normal"} Mode
-        </div>
-        <div className='app_main-footer-rules'>Rules</div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Intro score={score} setMyPick={setMyPick} />} />
+          <Route path="/game" element={<Game myPick={myPick} score={score} setScore={setScore} />} />
+        </Routes>
+      </BrowserRouter>
+      <footer className="app_main-footer">
+        <div className="app_main-footer-choose-mode">Mode</div>
+        <div className="app_main-footer-rules">Rules</div>
       </footer>
     </div>
   );
-}
+};
 
 export default App;

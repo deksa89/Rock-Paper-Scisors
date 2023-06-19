@@ -1,9 +1,9 @@
 import React from "react";
-import { AnimateSharedLayout, motion } from "framer-motion";
+// import { AnimateSharedLayout, motion } from "framer-motion";
 
 import "./header.css";
 
-const GameHeader = ({ advanced, score }) => {
+const Header = ({ score }) => {
   return (
     <div className="plain-game__header">
       <div className="plain-game__game-name">
@@ -12,10 +12,10 @@ const GameHeader = ({ advanced, score }) => {
         <p className="plain-game__game-title">SCISSORS</p>
       </div>
       <div className="plain-game__results">
-        <h3>Score: </h3>
+        <h3>Score: {score}</h3>
       </div>
     </div>
   );
 };
 
-export default GameHeader;
+export default Header;
