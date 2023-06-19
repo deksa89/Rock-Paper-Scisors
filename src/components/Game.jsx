@@ -78,15 +78,4 @@ const Game = ({ myPick, score, setScore }) => {
 
 export default Game;
 
-// <div>
-// <Header score={score}/>
-// <h3>JA: {myPick}</h3>
-// <p>-------------</p>
-// <h3>IGRA: {gamePick}</h3>
-// <p>-------------</p>
-// <h3>{result}</h3>
-// <p>-------------</p>
-// <h3>{score}</h3>
-// <p>-------------</p>
-// <Link to="/">Play Again</Link>
-// </div>
+

@@ -39,3 +39,47 @@ body, html {
   text-transform: uppercase;
   cursor: pointer;
 }
+
+
+.app_main-rules {
+  z-index: 1;
+  background-color: aliceblue;
+  position: absolute;
+  height: 46vh;
+  width: 34vw;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.app_main-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 0 40px;
+}
+
+.app_main-rules-image {
+  height: 30vh;
+}
+
+.app_main-close-button {
+  background-color: transparent;
+  border: none;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.app_main-title {
+  font-size: 40px;
+  font-weight: 900;
+}
