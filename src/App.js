@@ -25,9 +25,9 @@ const App = () => {
         </Routes>
       </BrowserRouter>
       <footer className="app_main-footer">
-        <div className="app_main-footer-choose-mode">Mode</div>
+        <div className="app_main-footer-choose-mode">MODE</div>
         <div className="app_main-footer-rules">
-          <button onClick={toggleRules}>Rules</button>
+          <button onClick={toggleRules}>RULES</button>
         </div>
       </footer>
       {showRules && (

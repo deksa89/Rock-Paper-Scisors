@@ -40,13 +40,12 @@ body, html {
   cursor: pointer;
 }
 
-
 .app_main-rules {
   z-index: 1;
   background-color: aliceblue;
   position: absolute;
   height: 46vh;
-  width: 34vw;
+  width: 51vw;
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -82,4 +81,5 @@ body, html {
 .app_main-title {
   font-size: 40px;
   font-weight: 900;
+  color: rgb(63, 63, 63);
 }

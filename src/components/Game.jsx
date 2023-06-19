@@ -58,15 +58,22 @@ const Game = ({ myPick, score, setScore }) => {
         <h1 className="game__result-title">Draw</h1>
       )}
       <div className="game__result">
-        <div className={`game__${myPick}-outer-circle`} >
-          <div className= {`game__${myPick}-inner-circle`}>
-            <img className="game__hands" src={myPick === 'rock' ? rock : myPick === 'scissors' ? scissors : paper} alt={myPick}  />
+
+        <div className="game__pick">
+          <h1>YOU PICKED</h1>
+          <div className={`game__${myPick}-outer-circle`} >
+            <div className= {`game__${myPick}-inner-circle`}>
+              <img className="game__hands" src={myPick === 'rock' ? rock : myPick === 'scissors' ? scissors : paper} alt={myPick}  />
+            </div>
           </div>
         </div>
 
-        <div className={`game__${gamePick}-outer-circle`} >
-          <div className= {`game__${gamePick}-inner-circle`}>
-            <img className="game__hands" src={gamePick === 'rock' ? rock : gamePick === 'scissors' ? scissors : paper} alt={gamePick}  />
+        <div className="game__pick">
+          <h1>HOUSE PICKED</h1>
+          <div className={`game__${gamePick}-outer-circle`} >
+            <div className= {`game__${gamePick}-inner-circle`}>
+              <img className="game__hands" src={gamePick === 'rock' ? rock : gamePick === 'scissors' ? scissors : paper} alt={gamePick}  />
+            </div>
           </div>
         </div>
       </div>
