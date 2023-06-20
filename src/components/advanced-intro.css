@@ -1,0 +1,156 @@
+.advanced-intro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.advanced-intro__triangle {
+    display: flex;
+}
+
+.advanced-intro__hands-img {
+    height: 4rem;
+}
+
+.advanced-intro-buttons {
+    /* position: relative;
+    top: -220px;
+    margin-top: 150px; */
+}
+
+.advanced-intro__scissors-outer-circle {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 233, 35);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -360px;
+    left: 90px;
+}
+
+.advanced-intro__paper-outer-circle {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(54 95 236);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -260px;
+    left: 240px;
+}
+
+.advanced-intro__rock-outer-circle {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(252, 104, 104);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -80px;
+    left: 180px;
+}
+
+.advanced-intro__lizard-outer-circle {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(175 66 251);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -80px;
+    left: -10px;
+}
+
+.advanced-intro__spock-outer-circle {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(105 203 237);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -260px;
+    left: -60px;
+}
+
+.advanced-intro__scissors-inner-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: inset 1px 9px 0px 0px rgb(182 181 181 / 28%);;
+}
+
+.advanced-intro__paper-inner-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: inset 1px 9px 0px 0px rgb(182 181 181 / 28%);;
+}
+
+.advanced-intro__rock-inner-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: inset 1px 9px 0px 0px rgb(182 181 181 / 28%);
+}
+
+.advanced-intro__lizard-inner-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: inset 1px 9px 0px 0px rgb(182 181 181 / 28%);
+}
+
+.advanced-intro__spock-inner-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: inset 1px 9px 0px 0px rgb(182 181 181 / 28%);
+}
+
+.advanced-intro__triangle {
+    position: absolute;
+    height: 350px;
+    width: 450px;
+    left: -190px;
+}
+
+.advanced-intro__three-hands {
+    position: absolute;
+    cursor: pointer;
+}
+
+.advanced-intro__hands {
+    height: 70px;
+}
+

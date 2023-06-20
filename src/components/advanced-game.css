@@ -1,0 +1,153 @@
+.advanced-game__game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advanced-game__result-title {
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 80px;
+}
+
+.advanced-game__result {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.advanced-game__hands {
+    height: 90px;
+}
+
+.advanced-game__pick {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+}
+
+.advanced-game__scissors-outer-circle {
+    width: 210px;
+    height: 210px;
+    background-color: rgb(255, 233, 35);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.advanced-game__paper-outer-circle {
+    width: 210px;
+    height: 210px;
+    background-color: rgb(54 95 236);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.advanced-game__rock-outer-circle {
+    width: 210px;
+    height: 210px;
+    background-color: rgb(252, 104, 104);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.advanced-game__lizard-outer-circle {
+    width: 210px;
+    height: 210px;
+    background-color: rgb(175 66 251);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.advanced-game__spock-outer-circle {
+    width: 210px;
+    height: 210px;
+    background-color: rgb(105 203 237);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.advanced-game__scissors-inner-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 165px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: inset 1px 9px 0px 0px rgb(182 181 181 / 28%);;
+}
+
+.advanced-game__paper-inner-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 165px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: inset 1px 9px 0px 0px rgb(182 181 181 / 28%);;
+}
+
+.advanced-game__rock-inner-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 165px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: inset 1px 9px 0px 0px rgb(182 181 181 / 28%);
+}
+
+.advanced-game__lizard-inner-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 165px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: inset 1px 9px 0px 0px rgb(182 181 181 / 28%);
+}
+
+.advanced-game__spock-inner-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 165px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: inset 1px 9px 0px 0px rgb(182 181 181 / 28%);
+}
+
+.advanced-game__go-back-button {
+    padding: 8px 25px;
+    border: 1px solid white;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 80px;
+}
