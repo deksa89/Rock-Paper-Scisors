@@ -5,6 +5,7 @@ import Game from "./components/Game";
 import AdvancedGame from "./components/AdvancedGame";
 import AdvancedIntro from "./components/AdvancedIntro";
 import RulesImage from "./images/image-rules.svg";
+import AdvancedRulesImage from "./images/image-rules-bonus.svg"
 import close from "./images/icon-close.svg";
 
 import "./App.css";
@@ -33,7 +34,7 @@ const App = () => {
             <>
               <Route
                 path="/"
-                element={<Intro score={score} setMyPick={setMyPick} />}
+                element={<Intro score={score} setMyPick={setMyPick} changeMode={changeMode} />}
               />
               <Route
                 path="/game"
@@ -46,7 +47,7 @@ const App = () => {
             <>
               <Route
                 path="/"
-                element={<AdvancedIntro score={score} setMyPick={setMyPick} />}
+                element={<AdvancedIntro score={score} setMyPick={setMyPick} changeMode={changeMode} />}
               />
               <Route
                 path="/advanced-game"
@@ -62,10 +63,11 @@ const App = () => {
         <div className="app_main-footer-choose-mode" onClick={toggleMode}>
           {changeMode}
         </div>
-        <div className="app_main-footer-rules">
-          <button onClick={toggleRules}>RULES</button>
+        <div onClick={toggleRules} className="app_main-footer-rules">
+          <button>RULES</button>
         </div>
       </footer>
+
       {showRules && (
         <div className="app_main-rules">
           <div className="app_main-header">
@@ -77,7 +79,7 @@ const App = () => {
               alt="close"
             />
           </div>
-          <img className="app_main-rules-image" src={RulesImage} alt="Rules" />
+          <img className="app_main-rules-image" src={changeMode === "regular" ? RulesImage : AdvancedRulesImage} alt="Rules" />
         </div>
       )}
     </div>

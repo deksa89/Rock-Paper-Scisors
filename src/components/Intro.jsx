@@ -8,14 +8,14 @@ import rock from "../images/icon-rock.svg";
 
 import "./intro.css";
 
-const Intro = ({ score, setMyPick }) => {
+const Intro = ({ score, setMyPick, changeMode }) => {
   const handlePick = (e) => {
     setMyPick(e.target.id);
   };
 
   return (
     <div className="intro">
-      <Header score={score}/>
+      <Header score={score} changeMode={changeMode} />
       <div className="intro-buttons">
         <div className="intro__triangle">
           <img

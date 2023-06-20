@@ -10,14 +10,14 @@ import spock from "../images/icon-spock.svg";
 
 import "./advanced-intro.css";
 
-const AdvancedIntro = ({ score, setMyPick }) => {
+const AdvancedIntro = ({ score, setMyPick, changeMode }) => {
   const handlePick = (e) => {
     setMyPick(e.target.id);
   };
 
   return (
     <div className="advanced-intro">
-      <Header score={score} />
+      <Header score={score} changeMode={changeMode} />
       <div className="advanced-intro-buttons">
         <div className="advanced-intro__pentagon">
           <img

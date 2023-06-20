@@ -44,13 +44,14 @@ body, html {
   z-index: 1;
   background-color: aliceblue;
   position: absolute;
-  height: 46vh;
+  height: 52vh;
   width: 51vw;
   border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding-bottom: 50px;
 }
 
 .app_main-header {
