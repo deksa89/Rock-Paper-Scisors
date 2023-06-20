@@ -106,3 +106,100 @@
     height: 90px;
 }
 
+@media (max-width: 630px) {
+    .intro__triangle {
+        position: absolute;
+        height: 220px;
+        width: 350px;
+        left: -110px;
+    }
+
+    .intro__paper-outer-circle {
+        width: 140px;
+        height: 140px;
+        top: 150px;
+        left: -60px;
+    }
+
+    .intro__paper-inner-circle {
+        width: 105px;
+        height: 105px;
+    }
+
+    .intro__scissors-outer-circle {
+        width: 140px;
+        height: 140px;
+        top: -65px;
+        left: 60px;
+    }
+
+    .intro__scissors-inner-circle {
+        width: 105px;
+        height: 105px;
+    }
+
+    .intro__rock-outer-circle {
+        width: 140px;
+        height: 140px;
+        top: -60px;
+        left: -170px;
+    }
+
+    .intro__rock-inner-circle {
+        width: 105px;
+        height: 105px;
+    }
+
+    .intro__hands {
+        height: 50px;
+    } 
+}
+
+@media (max-width: 420px) {
+    .intro__triangle {
+        position: absolute;
+        height: 150px;
+        width: 250px;
+        left: -80px;
+    }
+
+    .intro__paper-outer-circle {
+        width: 100px;
+        height: 100px;
+        top: 100px;
+        left: -50px;
+    }
+
+    .intro__paper-inner-circle {
+        width: 85px;
+        height: 85px;
+    }
+
+    .intro__scissors-outer-circle {
+        width: 100px;
+        height: 100px;
+        top: -65px;
+        left: 35px;
+    }
+
+    .intro__scissors-inner-circle {
+        width: 85px;
+        height: 85px;
+    }
+
+    .intro__rock-outer-circle {
+        width: 100px;
+        height: 100px;
+        top: -60px;
+        left: -130px;
+    }
+
+    .intro__rock-inner-circle {
+        width: 85px;
+        height: 85px;
+    }
+
+    .intro__hands {
+        height: 50px;
+    } 
+}

@@ -154,3 +154,71 @@
     height: 70px;
 }
 
+@media (max-width: 450px) {
+    .advanced-intro__scissors-outer-circle {
+        width: 100px;
+        height: 100px;
+        top: -340px;
+        left: 115px;
+    }
+    .advanced-intro__scissors-inner-circle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .advanced-intro__paper-outer-circle {
+        width: 100px;
+        height: 100px;
+        top: -245px;
+        left: 230px;
+    }
+    .advanced-intro__paper-inner-circle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .advanced-intro__rock-outer-circle {
+        width: 100px;
+        height: 100px;
+        top: -110px;
+        left: 190px;
+    }
+    .advanced-intro__rock-inner-circle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .advanced-intro__lizard-outer-circle {
+        width: 100px;
+        height: 100px;
+        top: -110px;
+        left: 50px;
+    }
+    .advanced-intro__lizard-inner-circle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .advanced-intro__spock-outer-circle {
+        width: 100px;
+        height: 100px;
+        top: -240px;
+        left: 10px;
+    }
+    .advanced-intro__spock-inner-circle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .advanced-intro__hands {
+        height: 50px;
+    }
+
+    .advanced-intro__pentagon {
+        width: 77%;
+        position: relative;
+        top: -50px;
+        left: 40px;
+    }
+
+}

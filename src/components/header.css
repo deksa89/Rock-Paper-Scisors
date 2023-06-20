@@ -5,7 +5,8 @@
     align-items: center;
     position: absolute;
     top: 70px;
-    width: 700px;
+    width: 90%;
+    max-width: 700px;
     border: 5px solid white;
     padding: 30px;
     border-radius: 10px;
@@ -46,7 +47,8 @@
     align-items: center;
     position: absolute;
     top: 70px;
-    width: 700px;
+    width: 90%;
+    max-width: 700px;
     border: 5px solid white;
     padding: 30px;
     border-radius: 10px;
@@ -78,4 +80,52 @@
     font-size: 40px;
     font-weight: 800;
     margin-top: 5px;
+}
+
+@media (max-width: 630px) {
+    .intro__game-name {
+        font-size: 30px;
+    }
+
+    .intro__game-name-advanced {
+        font-size: 20px;
+    }
+
+    .intro__game-title-advanced {
+        margin: -7px;
+    }
+
+    .intro__results-advanced {
+        padding: 4px 45px;
+    }
+}
+
+@media (max-width: 420px) {
+    .intro__game-name {
+        font-size: 15px;
+    }
+
+    .intro__game-name-advanced {
+        font-size: 15px;
+    }
+
+    .intro__game-title-advanced {
+        margin: -4px;
+    }
+
+    .intro__results-advanced {
+        padding: 4px 30px;
+    }
+
+    .intro__game-title {
+        margin: -4px;
+    }
+
+    .intro__results {
+        padding: 0px 30px;
+    }
+
+    .intro__header {
+        padding: 15px 25px;
+    }
 }
