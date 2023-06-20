@@ -84,3 +84,24 @@ body, html {
   font-weight: 900;
   color: rgb(63, 63, 63);
 }
+
+@media (max-width: 830px) {
+  .app_main-rules {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .app_main-header {
+    flex-direction: column;
+  }
+
+  .app_main-close-button {
+    position: absolute;
+    top: 1000px;
+  }
+
+  .app_main-title {
+    position: absolute;
+    top: 200px;
+  }
+}

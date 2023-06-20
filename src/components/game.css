@@ -107,3 +107,39 @@
     cursor: pointer;
     margin-top: 80px;
 }
+
+@media (max-width: 630px) {
+    .game__scissors-outer-circle {
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+    }
+    .game__scissors-inner-circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .game__paper-outer-circle {
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+    }
+    .game__paper-inner-circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .game__rock-outer-circle {
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+    }
+    .game__rock-inner-circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .game__hands {
+        height: 70px;
+    }
+}

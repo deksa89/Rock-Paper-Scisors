@@ -151,3 +151,59 @@
     cursor: pointer;
     margin-top: 80px;
 }
+
+@media (max-width: 630px) {
+    .advanced-game__scissors-outer-circle {
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+    }
+    .advanced-game__scissors-inner-circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .advanced-game__paper-outer-circle {
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+    }
+    .advanced-game__paper-inner-circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .advanced-game__rock-outer-circle {
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+    }
+    .advanced-game__rock-inner-circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .advanced-game__lizard-outer-circle {
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+    }
+    .advanced-game__lizard-inner-circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .advanced-game__spock-outer-circle {
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+    }
+    .advanced-game__spock-inner-circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .advanced-game__hands {
+        height: 70px;
+    }
+}
