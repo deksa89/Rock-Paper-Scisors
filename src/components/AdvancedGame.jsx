@@ -9,7 +9,7 @@ import spock from "../images/icon-spock.svg"
 
 import "./advanced-game.css";
 
-const AdvancedGame = ({ myPick, score, setScore }) => {
+const AdvancedGame = ({ myPick, score, setScore, changeMode }) => {
   const [gamePick, setGamePick] = useState("");
   const [result, setResult] = useState("");
 

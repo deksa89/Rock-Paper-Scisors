@@ -49,8 +49,6 @@ const Game = ({ myPick, score, setScore, changeMode }) => {
     calculateResult();
   }, [gamePick, myPick, setScore]);
 
-  console.log("change-mode u game: ", changeMode)
-
   return (
     <div className="game__game">
       <Header score={score} changeMode={changeMode} />

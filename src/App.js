@@ -52,7 +52,7 @@ const App = () => {
               <Route
                 path="/advanced-game"
                 element={
-                  <AdvancedGame myPick={myPick} score={score} setScore={setScore} />
+                  <AdvancedGame myPick={myPick} score={score} setScore={setScore} changeMode={changeMode} />
                 }
               />
             </>
