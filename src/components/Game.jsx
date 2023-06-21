@@ -7,7 +7,7 @@ import rock from "../images/icon-rock.svg";
 
 import "./game.css";
 
-const Game = ({ myPick, score, setScore }) => {
+const Game = ({ myPick, score, setScore, changeMode }) => {
   const [gamePick, setGamePick] = useState("");
   const [result, setResult] = useState("");
 
@@ -49,9 +49,11 @@ const Game = ({ myPick, score, setScore }) => {
     calculateResult();
   }, [gamePick, myPick, setScore]);
 
+  console.log("change-mode u game: ", changeMode)
+
   return (
     <div className="game__game">
-      <Header score={score} />
+      <Header score={score} changeMode={changeMode} />
       {result !== 'draw' ? (
         <h1 className="game__result-title">You {result}</h1>
       ) : (

@@ -39,7 +39,7 @@ const App = () => {
               <Route
                 path="/game"
                 element={
-                  <Game myPick={myPick} score={score} setScore={setScore} />
+                  <Game myPick={myPick} score={score} setScore={setScore} changeMode={changeMode} />
                 }
               />
             </>

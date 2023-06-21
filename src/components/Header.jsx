@@ -5,7 +5,7 @@ import "./header.css";
 
 const Header = ({ score, changeMode }) => {
 
-  // console.log("change-mode: ", changeMode)
+  console.log("change-mode u header: ", changeMode)
 
   return (
     <>
