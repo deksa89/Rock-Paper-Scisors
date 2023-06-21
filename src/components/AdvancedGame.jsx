@@ -122,7 +122,7 @@ const AdvancedGame = ({ myPick, score, setScore, changeMode }) => {
         </div>
       </div>
 
-      <Link to="/Rock-Paper-Scisors-Game" className="advanced-game__go-back-button">Play Again</Link>
+      <Link to="/Rock-Paper-Scisors" className="advanced-game__go-back-button">Play Again</Link>
     </div>
   );
 };

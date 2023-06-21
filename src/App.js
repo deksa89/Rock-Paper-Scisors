@@ -33,7 +33,7 @@ const App = () => {
           {changeMode === "regular" ? (
             <>
               <Route
-                path="/Rock-Paper-Scisors-Game"
+                path="/Rock-Paper-Scisors"
                 element={<Intro score={score} setMyPick={setMyPick} changeMode={changeMode} />}
               />
               <Route
@@ -46,7 +46,7 @@ const App = () => {
           ) : (
             <>
               <Route
-                path="/Rock-Paper-Scisors-Game"
+                path="/Rock-Paper-Scisors"
                 element={<AdvancedIntro score={score} setMyPick={setMyPick} changeMode={changeMode} />}
               />
               <Route
