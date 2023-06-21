@@ -41,9 +41,9 @@ To run the Rock Paper Scissors game, follow these instructions:
 Clone the repository to your local machine.
 Open the terminal or command prompt and navigate to the project directory.
 Install the required dependencies by running the following command:
-npm install
+- npm install
 Run the game script by executing the following command:
-npm run 
+- npm run 
 Select the game mode (Regular or Advanced) by following the prompts.
 Make your choice by typing the corresponding option and pressing Enter.
 The game will display the computer's choice and announce the winner.
