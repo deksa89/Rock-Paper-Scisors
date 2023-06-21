@@ -38,12 +38,15 @@ Challenge your strategic thinking and see if you can prevail!
 
 ## How to Run the Game
 To run the Rock Paper Scissors game, follow these instructions:
-Clone the repository to your local machine.
-Open the terminal or command prompt and navigate to the project directory.
+- Clone the repository to your local machine.
+- Open the terminal or command prompt and navigate to the project directory.
+
 Install the required dependencies by running the following command:
 - npm install
+  
 Run the game script by executing the following command:
-- npm run 
+- npm run
+
 Select the game mode (Regular or Advanced) by following the prompts.
 Make your choice by typing the corresponding option and pressing Enter.
 The game will display the computer's choice and announce the winner.
@@ -55,3 +58,5 @@ Play again and enjoy the game!
 This game was inspired by the classic Rock Paper Scissors and the additional options introduced in "The Big Bang Theory" TV series.
 Special thanks to the open-source community for their valuable contributions.
 If you have any questions or encounter any issues, please don't hesitate to reach out. Enjoy the game!
+
+![ezgif com-gif-maker](https://github.com/deksa89/Rock-Paper-Scisors/assets/89583742/0c2b49eb-663d-4fe2-bf48-e30c5c34f5c2)
