@@ -78,7 +78,7 @@ const Game = ({ myPick, score, setScore, changeMode }) => {
         </div>
       </div>
 
-      <Link to="/" className="game__go-back-button">Play Again</Link>
+      <Link to="/Rock-Paper-Scisors-Game" className="game__go-back-button">Play Again</Link>
     </div>
   );
 };
