@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Rock Paper Scissors Game
+Welcome to the Rock Paper Scissors game! This is a classic hand game where you can compete against the computer in a battle of wits. But wait, there's more! We have an advanced mode that introduces two additional options: Lizard and Spock. Are you ready for the challenge?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Game Modes
+Regular Mode
+In the regular mode, you can play the traditional version of Rock Paper Scissors, where you choose between three options: Rock, Paper, or Scissors. Here's how each option fares against the others:
 
-## Available Scripts
+Rock crushes Scissors
+Scissors cuts Paper
+Paper covers Rock
 
-In the project directory, you can run:
+### To play in regular mode, follow these steps:
 
-### `npm start`
+Choose your option (Rock, Paper, or Scissors).
+The computer will randomly select its option.
+The game will determine the winner based on the rules mentioned above.
+Repeat and try to outsmart the computer!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Advanced Mode
+In the advanced mode, we take the Rock Paper Scissors game to a whole new level by introducing Lizard and Spock. Now you have five options to choose from:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Rock crushes Scissors
+Scissors cuts Paper
+Paper covers Rock
+Rock crushes Lizard
+Lizard poisons Spock
+Spock smashes Scissors
+Scissors decapitates Lizard
+Lizard eats Paper
+Paper disproves Spock
+Spock vaporizes Rock
+To play in advanced mode, follow the steps below:
 
-### `npm test`
+Choose your option (Rock, Paper, Scissors, Lizard, or Spock).
+The computer will randomly select its option.
+The game will determine the winner based on the new rules mentioned above.
+Challenge your strategic thinking and see if you can prevail!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Run the Game
+To run the Rock Paper Scissors game, follow these instructions:
+Clone the repository to your local machine.
+Open the terminal or command prompt and navigate to the project directory.
+Install the required dependencies by running the following command:
+npm install
+Run the game script by executing the following command:
+npm run 
+Select the game mode (Regular or Advanced) by following the prompts.
+Make your choice by typing the corresponding option and pressing Enter.
+The game will display the computer's choice and announce the winner.
 
-### `npm run build`
+Play again and enjoy the game!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgments
+This game was inspired by the classic Rock Paper Scissors and the additional options introduced in "The Big Bang Theory" TV series.
+Special thanks to the open-source community for their valuable contributions.
+If you have any questions or encounter any issues, please don't hesitate to reach out. Enjoy the game!
