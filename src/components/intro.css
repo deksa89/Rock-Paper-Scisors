@@ -6,7 +6,10 @@
 }
 
 .intro__triangle {
-    display: flex;
+    /* position: absolute;
+    height: 350px; */
+    /* width: 450px; */
+    /* left: -190px; */
 }
 
 .intro__hands-img {
@@ -14,9 +17,9 @@
 }
 
 .intro-buttons {
-    position: relative;
-    top: -220px;
-    margin: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 .intro__scissors-outer-circle {
@@ -91,16 +94,10 @@
     box-shadow: inset 1px 9px 0px 0px rgb(182 181 181 / 28%);
 }
 
-.intro__triangle {
-    position: absolute;
-    height: 350px;
-    width: 450px;
-    left: -190px;
-}
-
 .intro__three-hands {
     position: absolute;
     cursor: pointer;
+
 }
 
 .intro__hands {
