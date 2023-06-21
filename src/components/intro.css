@@ -1,6 +1,7 @@
 .intro {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     flex-direction: column;
 }
 
@@ -15,7 +16,7 @@
 .intro-buttons {
     position: relative;
     top: -220px;
-    margin-top: 150px;
+    margin: 150px;
 }
 
 .intro__scissors-outer-circle {
